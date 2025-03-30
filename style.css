@@ -51,13 +51,14 @@ nav ul {
 .image-text-section {
   position: relative;
   width: 100%;
-  height: 400px; /* Adjust the height as needed */
+  height: 100vh; /* Make the section take up the full viewport height */
+  overflow: hidden; /* Crop the image if it exceeds the section's boundaries */
 }
 
 .background-image {
   width: 100%;
-  height: 100%;
-  object-fit: cover; /* Ensures the image covers the entire section */
+  height: 100%; /* Make sure the image takes the full height of the section */
+  object-fit: cover; /* Ensures the image covers the section while maintaining its aspect ratio */
 }
 
 .text-overlay {
@@ -68,13 +69,12 @@ nav ul {
   text-align: center;
   color: white;
   font-size: 18px;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add shadow below the text */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
 .text-overlay h2 {
   font-size: 30px;
   margin-bottom: 10px;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Optional: Shadow for the heading */
 }
 
 .text-overlay p {
