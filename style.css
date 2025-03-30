@@ -12,10 +12,10 @@ a {
 }
 
 button, nav a {
-  padding: 4px 10px;   /* Reduced padding */
+  padding: 4px 10px;
   border-radius: 4px;
   color: white;
-  font-size: 13px;      /* Smaller font size */
+  font-size: 13px;
 }
 
 button {
@@ -32,18 +32,18 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3px 15px;    /* Reduced padding for smaller navbar height */
+  padding: 3px 15px;
   background: #333;
-  font-size: 13px;      /* Smaller font size */
+  font-size: 13px;
 }
 
 nav h1 {
-  font-size: 18px;      /* Smaller font size for website name */
+  font-size: 18px;
 }
 
 nav ul {
   display: flex;
-  gap: 12px;            /* Reduced space between links */
+  gap: 12px;
   list-style: none;
   margin: 0;
 }
