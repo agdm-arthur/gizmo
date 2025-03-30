@@ -1,64 +1,49 @@
-/* Basic Reset */
 body {
-  background-color: #121212;  /* Dark background */
-  color: #e0e0e0;             /* Light gray text */
-  font-family: Tahoma, sans-serif;  /* Clean, readable font */
+  background: #121212;
+  color: #e0e0e0;
+  font-family: Tahoma, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-/* Link Styling */
 a {
-  color: #1e90ff;  /* Bright blue color for links */
-  text-decoration: none;  /* Remove underline by default */
+  color: #1e90ff;
+  text-decoration: none;
 }
 
-/* Button Styling */
+button, nav a {
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: white;
+  font-size: 14px;
+}
+
 button {
-  background-color: #333;  /* Dark background for buttons */
-  color: #fff;             /* White text color */
-  border: none;            /* Remove border */
-  padding: 8px 16px;       /* Reduced padding */
-  cursor: pointer;        /* Pointer cursor on hover */
-  border-radius: 4px;      /* Rounded corners */
-  font-size: 14px;         /* Smaller font size */
+  background: #333;
+  border: none;
+  cursor: pointer;
 }
 
-button:hover {
-  background-color: #444;  /* Lighter background on hover */
+button:hover, nav a:hover {
+  background: #555;
 }
 
-/* Navigation Bar Styling */
 nav {
-  display: flex;              /* Flex layout for navigation */
-  justify-content: space-between;  /* Space out items */
-  align-items: center;        /* Vertically align items */
-  padding: 5px 20px;          /* Reduced padding for smaller navbar */
-  background: #333;           /* Dark background */
-  font-size: 14px;            /* Smaller font size for the navbar */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  background: #333;
+  font-size: 14px;
 }
 
 nav h1 {
-  font-size: 20px;            /* Smaller font size for website name */
-  color: white;               /* White color for the name */
+  font-size: 20px;
 }
 
-/* Navigation Links Styling */
 nav ul {
-  display: flex;            /* Horizontal layout for the links */
-  gap: 15px;                /* Reduced space between links */
-  list-style: none;         /* Remove bullet points */
-  margin: 0;                /* Remove default margin */
-}
-
-nav a {
-  padding: 6px 12px;         /* Smaller padding for links */
-  border-radius: 4px;        /* Rounded corners for links */
-  color: white;              /* White text for links */
-  font-size: 14px;           /* Smaller font size for links */
-}
-
-nav a:hover {
-  background: #555;          /* Light gray background on hover */
-  text-decoration: none;     /* Ensure no underline on hover */
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  margin: 0;
 }
