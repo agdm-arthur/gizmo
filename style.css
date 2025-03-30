@@ -68,11 +68,13 @@ nav ul {
   text-align: center;
   color: white;
   font-size: 18px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add shadow below the text */
 }
 
 .text-overlay h2 {
-  font-size: 30px; /* Adjust the size of the heading */
+  font-size: 30px;
   margin-bottom: 10px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Optional: Shadow for the heading */
 }
 
 .text-overlay p {
