@@ -1,82 +1,29 @@
-body {
-  background: #121212;
-  color: #e0e0e0;
-  font-family: Tahoma, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  color: #1e90ff;
-  text-decoration: none;
-}
+body {background: #121212; color: #e0e0e0; font-family: Tahoma, sans-serif; margin: 0; padding: 0;}
+a {color: #1e90ff; text-decoration: none;}
 
 button, nav a {
-  padding: 4px 10px;
-  border-radius: 4px;
-  color: white;
-  font-size: 13px;
+  padding: 4px 10px; border-radius: 4px; color: white; font-size: 13px;
+  background: #0003; border: none; cursor: pointer;
 }
-
-button {
-  background: #0003;
-  border: none;
-  cursor: pointer;
-}
-
-button:hover, nav a:hover {
-  background: #0005;
-}
+nav a {background: #2C4A7A;}
+button:hover, nav a:hover {background: #0005;}
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 3px 15px;
-  background: #2C4A7A;
-  font-size: 13px;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 3px 15px; background: #2C4A7A; font-size: 13px;
 }
-
-nav h1 {
-  font-size: 18px;
-}
-
-nav ul {
-  display: flex;
-  gap: 12px;
-  list-style: none;
-  margin: 0;
-}
+nav h1 {font-size: 18px;}
+nav ul {display: flex; gap: 12px; list-style: none; margin: 0;}
 
 .image-text-section {
-  position: relative;
-  width: 100%;
-  height: 192px;
-  overflow: hidden;
+  position: relative; width: 100%; height: 192px; overflow: hidden;
 }
-
-.background-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+.background-image {width: 100%; height: 100%; object-fit: cover;}
 
 .text-overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: white;
-  font-size: 18px;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  text-align: center; color: white; font-size: 18px; text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
 }
+.text-overlay h2 {font-size: 30px; margin-bottom: 20px;}
 
-.text-overlay h2 {
-  font-size: 30px;
-  margin-bottom: 20px;
-}
-
-footer {
-  background: #333;
-}
+footer {background: #333;}
