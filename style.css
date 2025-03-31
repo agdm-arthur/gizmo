@@ -11,7 +11,7 @@ button:hover, nav a:hover {background: #0005;}
 nav {
   display: flex; justify-content: space-between; align-items: center;
   padding: 3px 15px; background: #2C4A7A; font-size: 13px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3); position: relative; z-index: 1;
 }
 nav h1 {font-size: 18px;}
 nav ul {display: flex; gap: 12px; list-style: none; margin: 0;}
