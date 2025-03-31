@@ -30,14 +30,14 @@ nav ul {display: flex; gap: 12px; list-style: none; margin: 0;}
 }
 .text-overlay h2 {font-size: 30px; margin-bottom: 20px;}
 
-footer {background: #333;}
+footer {background: #333; margin-top: auto; padding: 20px 0;}
 .footer-logo {
   width: 32px; height: auto;
   margin-top: -24px;
 }
 
 /* Marketplace Additions */
-.marketplace-container {padding: 20px 15px; margin-top: 20px;}
+.marketplace-container {padding: 20px 15px; margin-top: 20px;flex: 1;}
 .product-grid {display: grid; gap: 25px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); max-width: 1200px; margin: 0 auto;}
 .product-card {background: #1e1e1e; border-radius: 6px; overflow: hidden;}
 .product-image {height: 200px; background: #121212;}
