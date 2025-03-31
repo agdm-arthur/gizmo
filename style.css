@@ -28,6 +28,8 @@ nav ul {display: flex; gap: 12px; list-style: none; margin: 0;}
 .text-overlay h2 {font-size: 30px; margin-bottom: 20px;}
 
 footer {background: #333;}
+.footer-logo {width: 32px; height: auto;
+  margin-top: -24px}
 
 /* Marketplace Additions */
 .marketplace-container {padding: 20px 15px; margin-top: 20px;}
