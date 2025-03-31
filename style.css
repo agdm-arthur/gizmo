@@ -9,17 +9,6 @@ nav a {background: #2C4A7A;}
 button:hover, nav a:hover {background: #0005;}
 
 nav {
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-  /* Existing styles remain the same */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 3px 15px;
-  background: #2C4A7A;
-  font-size: 13px;
-}
-
-nav {
   display: flex; justify-content: space-between; align-items: center;
   padding: 3px 15px; background: #2C4A7A; font-size: 13px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.3);
