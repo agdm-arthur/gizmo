@@ -30,7 +30,7 @@ nav ul {display: flex; gap: 12px; list-style: none; margin: 0;}
 }
 .text-overlay h2 {font-size: 30px; margin-bottom: 20px;}
 
-footer {background: #333; margin-top: auto; padding: 20px 0;}
+footer {background: #333; margin-top: auto; padding: 0 0 20px;}
 .footer-logo {
   width: 32px; height: auto;
   margin-top: -24px;
