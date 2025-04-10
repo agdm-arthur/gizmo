@@ -47,3 +47,111 @@ footer {background: #333; margin-top: auto; padding: 0 0 20px;}
 .price {color: #1e90ff; font-weight: bold; margin: 8px 0;}
 .condition {font-size: 14px; opacity: 0.8;}
 .contact-seller {display: block; margin-top: 12px; text-align: center;}
+
+/* Add these to your existing CSS */
+.item-page-container {
+  padding: 20px 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex: 1;
+}
+
+.item-card {
+  display: grid;
+  gap: 30px;
+  background: #1e1e1e;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.item-gallery .main-image {
+  height: 400px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.item-details h1 {
+  font-size: 28px;
+  margin: 0 0 15px;
+  color: #e0e0e0;
+}
+
+.price-condition {
+  border-bottom: 1px solid #333;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 32px;
+  color: #1e90ff;
+  margin: 0 0 8px;
+}
+
+.seller-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0;
+  padding: 15px;
+  background: #252525;
+  border-radius: 6px;
+}
+
+.seller-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.contact-seller {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background: #2C4A7A;
+  margin: 20px 0;
+}
+
+.item-description,
+.item-specs {
+  margin: 25px 0;
+}
+
+.item-specs ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+}
+
+.item-specs li {
+  padding: 10px 0;
+  border-bottom: 1px solid #333;
+}
+
+.spec-title {
+  color: #1e90ff;
+  display: inline-block;
+  width: 120px;
+}
+
+.rating {
+  color: #ffd700;
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .item-card {
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+  }
+  
+  .item-gallery .main-image {
+    height: 500px;
+  }
+  
+  .item-details {
+    padding-left: 30px;
+  }
+}
